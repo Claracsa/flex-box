@@ -52,3 +52,59 @@
 .column-reverse li{
     background-color: purple;
 }
+
+.flex-container-new{
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.flex-container-new-column{
+    flex-direction: column;
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.item-new{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
