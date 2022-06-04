@@ -57,7 +57,7 @@
     background-color: purple;
 }
 
-/* Aula de wrap */
+/* Aula de wrap (quebra de linha) */
 
 .flex-container-wrap {
     display: flex;
@@ -65,7 +65,7 @@
     border: 2px solid black;
     max-width: 300px;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     margin-top: 16px;
 }
 
@@ -77,7 +77,7 @@
     max-width: 300px;
     margin: auto;
     margin-bottom: 10px;
-    margin-top: 16px;
+    margin-top: 40px;
 }
 
 .item-wrap {
@@ -85,6 +85,7 @@
     height: 50%;
     text-align: center;
     min-width: 100px;
+    margin: 5px;
 }
 
 .nowrap {
@@ -117,3 +118,42 @@
 
 /* Aula de flex flow */
 
+.flex-container-flow{
+    display: flex;
+    border: 2px solid black;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.default{
+    flex-flow: row nowrap;
+}
+
+.wrap-flow{
+    flex-flow: row wrap;
+}
+
+.wrap-reverse-flow{
+    flex-flow: row wrap-reverse;
+}
+
+.nowrap-row-reverse-flow{
+    flex-flow: row-reverse nowrap;
+}
+
+.wrap-row-reverse-flow{
+    flex-flow: row-reverse wrap;
+}
+
+.wrap-reverse-row-reverse-flow{
+    flex-flow: row-reverse wrap-reverse;
+}
+.item-flow{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
