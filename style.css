@@ -1,10 +1,12 @@
-.flex{
+/* Aula de flex box */
+
+.flex {
     max-width: 300px;
     padding: 10px;
     border: 2px solid black;
 }
 
-.item{
+.item {
     background: blue;
     height: 50px;
     width: 50px;
@@ -15,7 +17,9 @@
     margin: 5px;
 }
 
-.flex-container{
+/* Aula de row e column */
+
+.flex-container {
     margin-bottom: 5px;
     padding: 0;
     display: flex;
@@ -23,37 +27,39 @@
     border: 2px solid black;
 }
 
-.row{
+.row {
     flex-direction: row;
 }
 
-.row-reverse{
+.row-reverse {
     flex-direction: row-reverse;
 }
 
-.row-reverse li{
+.row-reverse li {
     background-color: red;
 }
 
-.column{
+.column {
     float: left;
     flex-direction: column;
 }
 
-.column li{
+.column li {
     background-color: orange;
 }
 
-.column-reverse{
+.column-reverse {
     float: right;
     flex-direction: column-reverse;
 }
 
-.column-reverse li{
+.column-reverse li {
     background-color: purple;
 }
 
-.flex-container-new{
+/* Aula de wrap */
+
+.flex-container-wrap {
     display: flex;
     height: 150px;
     border: 2px solid black;
@@ -63,7 +69,7 @@
     margin-top: 16px;
 }
 
-.flex-container-new-column{
+.flex-container-wrap-column {
     flex-direction: column;
     display: flex;
     height: 150px;
@@ -74,37 +80,40 @@
     margin-top: 16px;
 }
 
-.item-new{
+.item-wrap {
     font-size: 24px;
     height: 50%;
     text-align: center;
     min-width: 100px;
 }
 
-.nowrap{
+.nowrap {
     flex-wrap: nowrap;
 }
 
-.blue{
+.blue {
     background-color: blue;
 }
 
-.green{
+.green {
     background-color: green;
 }
 
-.orange{
+.orange {
     background-color: orange;
 }
 
-.pink{
+.pink {
     background-color: pink;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.wrap-reverse{
+.wrap-reverse {
     flex-wrap: wrap-reverse;
 }
+
+/* Aula de flex flow */
+
