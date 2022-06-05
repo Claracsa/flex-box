@@ -1,5 +1,9 @@
 /* Aula de flex box */
 
+#title{
+    text-align: center;
+}
+
 .flex {
     max-width: 300px;
     padding: 10px;
@@ -122,30 +126,30 @@
     display: flex;
     border: 2px solid black;
     max-width: 500px;
-    margin: 10px;
+    margin: auto;
 }
 
-.default{
+.row-nowrap{
     flex-flow: row nowrap;
 }
 
-.wrap-flow{
+.row-wrap{
     flex-flow: row wrap;
 }
 
-.wrap-reverse-flow{
+.row-wrap-reverse{
     flex-flow: row wrap-reverse;
 }
 
-.nowrap-row-reverse-flow{
+.row-reverse-nowrap{
     flex-flow: row-reverse nowrap;
 }
 
-.wrap-row-reverse-flow{
+.row-reverse-wrap{
     flex-flow: row-reverse wrap;
 }
 
-.wrap-reverse-row-reverse-flow{
+.row-reverse-wrap-reverse{
     flex-flow: row-reverse wrap-reverse;
 }
 .item-flow{
