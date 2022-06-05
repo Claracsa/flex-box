@@ -286,3 +286,47 @@
     flex: 0;
     padding: 20pxs;
 }
+
+/* Aula de align content */
+
+.container-align-content{
+    height: 400px;
+    max-width: 300px;
+    border: 2px solid black;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.item-align-content{
+    background-color: cornflowerblue;
+    padding: 0 5px;
+    color: white;
+    text-align: center;
+    flex: 1;
+    margin: 5px;
+}
+
+.center-align-content{
+    align-content: center;
+}
+
+.stretch-align-content{
+    align-content: stretch;
+}
+
+.start-align-content{
+    align-content: flex-start;
+}
+
+.end-align-content{
+    align-content: flex-end;
+}
+
+.space-around-align-content{
+    align-content: space-around;
+}
+
+.space-between-align-content{
+    align-content: space-between;
+}
