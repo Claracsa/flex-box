@@ -210,3 +210,79 @@
     flex-direction: column;
     min-height: 200px;
 }
+
+.item-justify-column{
+    background-color: plum;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+/* Aula de align items row */
+
+.container-align-item{
+    max-width: 500px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+}
+
+.flex-align-item{
+    flex: 1;
+}
+
+.item-align{
+    background-color: forestgreen;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+}
+
+.center-align-item{
+    align-items: center;
+}
+
+.stretch-align-item{
+    align-items: stretch;
+}
+
+.start-align-item{
+    align-items: flex-start;
+}
+
+.end-align-item{
+    align-items: flex-end;
+}
+
+.baseline-align-item{
+    align-items: baseline;
+}
+
+/* Aula de align items column*/
+
+.column-align-item{
+    flex-direction: column;
+}
+
+.item-align-column{
+    background-color: grey;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+}
+
+/* Alinhamento central à tela */
+
+.central{
+    height: 300px;
+    justify-content: center;
+}
+
+.central .item-align{
+    flex: 0;
+    padding: 20pxs;
+}
