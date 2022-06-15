@@ -1,5 +1,25 @@
 /* Aula de flex box */
 
+/* Página principal */
+
+.container-principal{
+    height: 400px;
+    max-width: 300px;
+    border: 2px solid black;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-principal{    
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 40px;
+    text-align: center;    
+}
+
 #title{
     text-align: center;
 }
