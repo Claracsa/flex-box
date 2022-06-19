@@ -9,15 +9,17 @@
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
 }
 
 .item-principal{    
     background-color: darkolivegreen;
     color: white;
     font-size: 40px;
-    text-align: center;    
+    text-align: center;
+    margin: 5px;
+    padding: 0 5px;    
 }
 
 #title{
@@ -349,4 +351,38 @@
 
 .space-between-align-content{
     align-content: space-between;
+}
+
+/* Flex grow */
+
+.container-grow{
+    margin: auto;
+    display: flex;
+    max-width: 400px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.item-grow{
+    background-color: lightcoral;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.fg-0{
+    flex-grow: 0;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.fg-3{
+    flex-grow: 3;
 }
