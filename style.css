@@ -3,11 +3,11 @@
 /* Página principal */
 
 .container-principal{
-    height: 400px;
+    height: 500px;
     max-width: 300px;
     border: 2px solid black;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     flex-wrap: wrap;
     align-content: space-around;
     flex-direction: column;
@@ -385,4 +385,32 @@
 
 .fg-3{
     flex-grow: 3;
+}
+
+/* Aula de flex basis */
+
+.container-basis{
+    max-width: 300px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+}
+
+.item-basis{
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.bauto{
+    flex-basis: auto;
+}
+
+.basis-0{
+    flex-basis: 0;
+}
+
+.W100{
+    flex-basis: 100px;
 }
