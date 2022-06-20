@@ -3,7 +3,7 @@
 /* Página principal */
 
 .container-principal{
-    height: 500px;
+    height: 700px;
     max-width: 300px;
     border: 2px solid black;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 .item-principal{    
-    background-color: darkolivegreen;
+    background-color: lightskyblue;
     color: white;
     font-size: 40px;
     text-align: center;
@@ -413,4 +413,14 @@
 
 .W100{
     flex-basis: 100px;
+}
+
+/* Aula de flex shrink */
+
+.container-shrink{
+
+}
+
+.item-shrink{
+    
 }
