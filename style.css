@@ -412,3 +412,23 @@
 .W100{
     flex-basis: 100px;
 }
+
+/* Aula de flex shrink */
+
+.container-shrink{
+    display: flex;
+    border: 2px solid black;
+    max-width: 300px;
+    margin: auto;
+}
+
+.item-shrink{
+    margin: 5px;
+    background-color: lightpink;
+    font-size: 24px;
+    text-align: center;
+}
+
+.flex-shrink{
+    flex-shrink: 1;
+}
