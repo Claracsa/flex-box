@@ -14,11 +14,7 @@
 }
 
 .item-principal{    
-<<<<<<< HEAD
-    background-color: lightskyblue;
-=======
     background-color: floralwhite;
->>>>>>> 57d200e7ecd9c5fc75d83f39932f4f22523c2676
     color: white;
     font-size: 40px;
     text-align: center; 
@@ -431,6 +427,7 @@
     background-color: lightpink;
     font-size: 24px;
     text-align: center;
+    color: white;
 }
 
 .flex-shrink{
