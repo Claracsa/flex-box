@@ -420,13 +420,6 @@
 /* Aula de flex shrink */
 
 .container-shrink{
-<<<<<<< HEAD
-
-}
-
-.item-shrink{
-    
-=======
     display: flex;
     border: 2px solid black;
     max-width: 300px;
@@ -442,5 +435,4 @@
 
 .flex-shrink{
     flex-shrink: 1;
->>>>>>> 57d200e7ecd9c5fc75d83f39932f4f22523c2676
 }
