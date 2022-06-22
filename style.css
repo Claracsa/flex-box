@@ -449,3 +449,34 @@
     flex-shrink: 3;
     flex-basis: 100px;
 }
+
+/* Aula de flex */
+
+.container-flex{
+    display: flex;
+    border: 2px solid black;
+    max-width: 400px;
+    margin: auto;    
+}
+
+.item-flex{
+    margin: 5px;
+    background-color: lightseagreen;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.largura{
+    width: 200px;
+}
+
+.flex-1{
+    flex: 1;
+    /* grow = 1, shrink = 1, basis = 0 */
+}
+
+.flex-2{
+    flex: 2;
+    /* grow = 1, shrink = 1, basis = 0 */
+}
