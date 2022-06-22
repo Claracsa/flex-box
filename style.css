@@ -420,6 +420,7 @@
     border: 2px solid black;
     max-width: 300px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .item-shrink{
@@ -430,6 +431,21 @@
     color: white;
 }
 
-.flex-shrink{
+.flex-shrink-1{
     flex-shrink: 1;
+}
+
+.flex-shrink-0{
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.flex-shrink-2{
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+.flex-shrink-3{
+    flex-shrink: 3;
+    flex-basis: 100px;
 }
