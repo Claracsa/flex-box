@@ -480,3 +480,41 @@
     flex: 2;
     /* grow = 1, shrink = 1, basis = 0 */
 }
+
+/* Aula de order */
+
+.container-order{
+    display: flex;
+    border: 2px solid black;
+    max-width: 350px;
+    margin: auto;
+}
+
+.item-order{
+    flex: 1;
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+.order-3{
+    order: 3;
+}
+
+.order-4{
+    order: 4;
+}
+
+.direction-column{
+    flex-direction: column;
+}S
